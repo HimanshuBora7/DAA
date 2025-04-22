@@ -28,7 +28,7 @@ public class quickSort {
     }
     public static void quick(int [] array , int low , int high ){
            
-  if(low < high ){
+  if(low < high ){ 
     int partion_index = pivot_func( array , low , high ) ;
     quick( array , low , partion_index -1 );
     quick(array, partion_index + 1 , high) ;
